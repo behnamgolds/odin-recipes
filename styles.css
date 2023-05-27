@@ -1,7 +1,47 @@
+body {
+  margin: auto 5%;
+  background-color: antiquewhite;
+  line-height: 1.5em;
+  font-family: 'Helvetica', 'Verdana', sans-serif;
+}
+
 h1 {
   text-align: center;
+  font-family: 'Times New Roman', serif;
+  font-weight: 600;
+  font-size: 2.5em;
+  margin-bottom: 1.5em;
 }
+
+h2 {
+  color: #c25f5f;
+}
+
 img {
+  float: left;
   width: 30%;
   height: auto;
+  margin: 0 1.5em 0 0;
+  border: 1px solid rgb(105, 103, 87);
+}
+
+.ingredients {
+  list-style-position: inside;
+}
+
+.clear {
+  clear: both;
+}
+
+.recipes {
+  font-size: 1.2em;
+}
+
+.recipes li {
+  line-height: 6em;
+}
+
+.left-border {
+  border-left: 2px dotted rgb(240, 167, 21);
+  border-radius: 3%;
 }
